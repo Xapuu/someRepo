@@ -1,0 +1,56 @@
+.card-wrap-element {
+    border: 1px solid gray;
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .card-image {
+        width: 100%;
+    }
+    .card-action-row {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card-button-wrapper {
+            display: flex;
+            justify-content: space-between;
+            .card-buy-button {
+                background: #1ed41e;
+                cursor: pointer;
+                margin-left: 10px;
+                color: white;
+                font-size: 22px;
+                height: 44px;
+                border-radius: 6px;
+                &:hover {
+                    background: green;
+                }
+            }
+            .card-sold-button {
+                background: gray;
+                cursor: pointer;
+                margin-left: 10px;
+                color: white;
+                font-size: 22px;
+                height: 44px;
+                border-radius: 6px;
+            }
+            .card-view-more {
+                background: #3333ff;
+                cursor: pointer;
+                color: white;
+                margin-left: 10px;
+                font-size: 22px;
+                height: 44px;
+                border-radius: 6px;
+                &:hover {
+                    background: blue;
+                }
+            }
+        }
+        .card-price {
+            font-size: 30px;
+            padding: 20px;
+        }
+    }
+}

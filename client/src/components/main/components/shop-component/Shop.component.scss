@@ -1,0 +1,16 @@
+.cards-wrap {
+    padding: 20px;
+    display: grid;
+    grid-gap: 50px;
+    align-items: stretch;
+    @media only screen and (max-width: 420px) {
+        grid-template-columns: repeat(auto-fill, minmax(283px, 1fr));
+    }
+    @media only screen and (min-width: 500px) {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    .card-wrap {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+}

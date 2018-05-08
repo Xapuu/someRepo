@@ -1,0 +1,19 @@
+.view-more-box {
+    display: flex;
+    width: 100%;
+    background: #a5a5a5;
+    justify-content: center;
+    .image-slider-arrow {
+        cursor: pointer;
+    }
+    .view-more-image-selector-wrap {
+        display: flex;
+        height: 150px;
+        width: 80%;
+        overflow: hidden;
+        border: 1px solid red;
+        img {
+            height: inherit;
+        }
+    }
+}
